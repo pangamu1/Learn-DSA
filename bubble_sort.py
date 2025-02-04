@@ -1,4 +1,4 @@
-# Bubble Sort Algorithm
+# Sorting Algorithm Basics - 1) Bubble Sort Algorithm
 def bubble(list1):
     n = len(list1)
     for i in range(n):

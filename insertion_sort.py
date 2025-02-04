@@ -1,4 +1,4 @@
-# Insertion Sort Algorithm
+# Sorting Algorithm Basics - 3) Insertion Sort Algorithm
 def insertion_sort(list1):
     n = len(list1)
     

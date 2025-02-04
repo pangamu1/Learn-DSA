@@ -1,4 +1,4 @@
-# Selection Sort Algorithm
+# Sorting Algorithm Basics - 2) Selection Sort Algorithm 
 def selection_sort(list1):
     n = len(list1)
     for i in range(n):
