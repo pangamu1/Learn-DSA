@@ -1,15 +1,15 @@
-# Sorting Algorithm Basics - 2) Selection Sort Algorithm 
-def selection_sort(list1):
-    n = len(list1)
-    for i in range(n):
-        min_index = i
-        for j in range(i+1, n):
-            if list1[j] < list1[min_index]:
-                min_index = j
-        list1[i], list1[min_index] = list1[min_index], list1[i]
-    return list1
+def selection_sort(arr):
+    ln = len(arr)
+    for x in range(ln):
+        min_index = x
 
-list1 = [9, 6, 3, 5, 2, 8, 7, 4, 1]
+        for y in range(x+1, ln):
+            if arr[y] < arr[min_index]:
+                min_index = y
+        arr[x],arr[min_index] = arr[min_index], arr[x]
+    return arr
 
-print("Unsorted list: ", list1)
-print("Sorted list: ", selection_sort(list1))
+arr = [64, 34, 25, 12, 22, 11, 90]
+
+sorted_list = selection_sort(arr)
+print(f"Here's the sorted list: {sorted_list}")
